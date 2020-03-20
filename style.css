@@ -33,6 +33,16 @@ h6 {
   height: 60px;
 }
 
+.footer-logo {
+  fill: red;
+  width: 236px;
+}
+
+.weather-icon {
+  width: 20px;
+}
+
+
 section {
   grid-template-areas: 'item1 item2 item2 item3';
 }
@@ -45,7 +55,7 @@ section {
 .sticky {
   position: sticky;
   position: -webkit-sticky;
-  top: 10px;
+  top: 75px;
 }
 
 .section-item-one {
@@ -95,7 +105,14 @@ section {
       'item3';
   }
 
-  .grid-col-4 {
+  .logo {
+    height: 20px;
+  }
+
+  .grid-col-4,
+  .grid-col-3,
+  .grid-col-2 {
     grid-template-columns: 1fr;
   }
+
 }

@@ -1,25 +1,25 @@
-# Apply Corp main page
+# Newsweek.com
 
-## Copyrighted Apple.com
+## Using Bootstrap
 
-\*\_In this project, you’ll get a chance to rebuild main page pf Apple.com.
+\*\_This project build a replica of the news site Newsweek.com using the Bootstrap framework.
 
-> This repository consists of making a clone of a Apple Corp. old main page.
-
-![Preview](img/result.png?raw=true 'Title')
+![Preview](image/Screenshot.jpg?raw=true 'Title')
 
 ## Build With
 
 - HTML,
-- CSS
+- CSS,
+- Bootstrap 9
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Bekhzod96/AppleClone/7a92875dd5e9c5b58a3d5b876a18007d246446be/index.html)
+[Live Demo Link]()
 
 **Deployment**:+1:
 
 - \*_The page is very straightforward, so you should be able to clone it even if your CSS skills aren’t perfect. As usual, don’t worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit. The point is to make it look like the real page as much as you reasonably can_
+
 
 **npm run** to run server and page will be rendered automatically to Mozilla Developer Browser.
 
@@ -38,7 +38,7 @@
 ## 🤝 Contributing
 
 **Contributions, issues and feature requests are welcome!**
-Feel free to check the [issues page](https://github.com/Bekhzod96/MintSignUp/blob/feature-1/index.html) .
+Feel free to check the [issues page]() .
 
 ## Show your support
 
