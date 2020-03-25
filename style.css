@@ -129,7 +129,6 @@ section {
   .display-block {
     display: inline-block;
   }
-
 }
 
 @media screen and (max-width: 770px) {
