@@ -10,11 +10,11 @@
 
 - HTML,
 - CSS,
-- Bootstrap 9
+- Bootstrap 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Bekhzod96/newsweekClone/57757f171a1123b8fa5e347f7696f78078427d1e/index.html)
 
 **Deployment**:+1:
 
