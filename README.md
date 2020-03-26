@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Bekhzod96/newsweekClone/57757f171a1123b8fa5e347f7696f78078427d1e/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Bekhzod96/newsweekClone/16628b452a7bf3c5256939fed2cb2efd30b01a2c/index.html)
 
 **Deployment**:+1:
 
