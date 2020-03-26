@@ -8,7 +8,7 @@ body {
   background-color: #f4f5f6;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  min-width: 320px;
+  min-width: 332px;
 }
 
 h6 {
@@ -25,7 +25,7 @@ h6 {
 }
 
 .bg-danger {
-  background-color: red;
+  background-color: #f72210!important;
 }
 
 .card-body {
@@ -66,8 +66,8 @@ section {
 }
 
 .position-absolute {
-  top: 30px;
-  left: 80px;
+  top: 10px;
+  left: 60px;
 }
 
 .sticky {
@@ -113,7 +113,7 @@ section {
   }
 
   .logo {
-    height: 20px;
+    height:1.5rem;
     position: relative;
     left: 10px;
   }
@@ -129,6 +129,11 @@ section {
   .display-block {
     display: inline-block;
   }
+
+  .newsletter{
+    max-width: 60%; 
+    margin: 20px auto !important;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -143,9 +148,39 @@ section {
     display: none;
   }
 
+  footer .d-flex{
+    flex-wrap: wrap;
+  }
+
   .grid-col-4,
   .grid-col-3,
   .grid-col-2 {
     grid-template-columns: 1fr;
+  }
+
+  .sunscribe{
+    flex-direction: column;
+  }
+
+  .col-sm-2{
+    max-width: 15%;
+  }
+
+  .col-sm-9,
+  .col-sm-10{
+    max-width: 85%;
+  }
+
+  .pl-5, 
+  .px-5{
+    padding-left: 0!important;
+  }
+
+  .position-absolute {
+    left: 20px;
+  }
+
+  .text-align-center{
+    text-align: center;
   }
 }
