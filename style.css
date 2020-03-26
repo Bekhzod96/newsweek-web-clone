@@ -113,7 +113,7 @@ section {
   }
 
   .logo {
-    height:1.5rem;
+    height: 1.5rem;
     position: relative;
     left: 10px;
   }
@@ -130,8 +130,8 @@ section {
     display: inline-block;
   }
 
-  .newsletter{
-    max-width: 60%; 
+  .newsletter {
+    max-width: 60%;
     margin: 20px auto !important;
   }
 }
@@ -148,7 +148,7 @@ section {
     display: none;
   }
 
-  footer .d-flex{
+  footer .d-flex {
     flex-wrap: wrap;
   }
 
@@ -158,29 +158,29 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .sunscribe{
+  .sunscribe {
     flex-direction: column;
   }
 
-  .col-sm-2{
+  .col-sm-2 {
     max-width: 15%;
   }
 
   .col-sm-9,
-  .col-sm-10{
+  .col-sm-10 {
     max-width: 85%;
   }
 
-  .pl-5, 
-  .px-5{
-    padding-left: 0!important;
+  .pl-5,
+  .px-5 {
+    padding-left: 0 !important;
   }
 
   .position-absolute {
     left: 20px;
   }
 
-  .text-align-center{
+  .text-align-center {
     text-align: center;
   }
 }
