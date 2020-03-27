@@ -73,7 +73,7 @@ section {
 .sticky {
   position: sticky;
   position: -webkit-sticky;
-  top: 75px;
+  bottom:0;
 }
 
 .section-item-one {
