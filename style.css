@@ -92,7 +92,8 @@ section {
   grid-area: item3;
 }
 
-.grid-col-4 {
+.grid-col-4,
+.grid-col-4-2  {
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -117,7 +118,7 @@ section {
   }
 
   .logo {
-    height: 1.5rem;
+    height: 1.2rem;
     position: relative;
     left: 10px;
   }
@@ -132,6 +133,10 @@ section {
 
   .display-block {
     display: inline-block;
+  }
+
+  .grid-col-4-2 {
+    grid-template-columns: 1fr 1fr;
   }
 
   .newsletter {
@@ -157,6 +162,7 @@ section {
   }
 
   .grid-col-4,
+  .grid-col-4-2,
   .grid-col-3,
   .grid-col-2 {
     grid-template-columns: 1fr;
@@ -186,5 +192,22 @@ section {
 
   .text-align-center {
     text-align: center;
+  }
+
+  .no-gutters > .col,
+  .no-gutters > [class*=col-] {
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-2, 
+  .col-sm-3 {
+    max-width: 20%;
+  }
+
+  .col-sm-9,
+  .col-sm-10 {
+    max-width: 80%;
   }
 }
