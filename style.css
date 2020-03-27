@@ -93,7 +93,7 @@ section {
 }
 
 .grid-col-4,
-.grid-col-4-2  {
+.grid-col-4-2 {
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -201,7 +201,7 @@ section {
 }
 
 @media (max-width: 576px) {
-  .col-sm-2, 
+  .col-sm-2,
   .col-sm-3 {
     max-width: 20%;
   }
