@@ -143,6 +143,11 @@ section {
     max-width: 60%;
     margin: 20px auto !important;
   }
+
+  .section-item-three .col-sm-2 {
+    max-width: 7%;
+  }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -172,7 +177,8 @@ section {
     flex-direction: column;
   }
 
-  .col-sm-2 {
+  .col-sm-2,
+  .section-item-three .col-sm-2 {
     max-width: 15%;
   }
 
