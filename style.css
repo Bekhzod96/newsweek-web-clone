@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 body {
@@ -35,6 +35,10 @@ h6 {
 .card,
 .pointer {
   cursor: pointer;
+}
+
+.card-text {
+  font-size: 15px;
 }
 
 .logo {
@@ -73,7 +77,7 @@ section {
 .sticky {
   position: sticky;
   position: -webkit-sticky;
-  bottom:0;
+  bottom: 0;
 }
 
 .section-item-one {
